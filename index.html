@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Beat</title>
+    <style>
+        :root{
+            --card: rgb(0, 109, 173);
+        }
+        html{
+            height: 100%;
+            width: 100%;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1 {
+        font-size: 3rem;
+        }
+        h2 {
+        font-size: 2.5rem;
+        }
+        h3{
+        font-size: 2rem;
+        }
+        h4{
+        font-size: 1.5rem;
+        }
+        h5{
+        font-size: 1rem;
+        }
+        h6{
+        font-size: .5rem;
+        }
+        p{
+        font-size: 1rem;
+        }
+        .container{
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 900px;
+            width: 100%;
+            height: 100%;
+            display: grid;
+            background-color: bisque;
+            grid-template-columns: repeat(auto-fit, minmax(max(20%, min(200px, 100%)), 1fr));
+        }
+        .AudioCard{
+            display: block;
+            background-color: var(--card);
+            max-width: 300px;
+            margin: 1rem;
+            padding: 1rem;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+        img{
+            width: 100%;
+        }
+        audio{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="AudioCard">
+            <h1 class="AudioTitle">Você é feliz</h1>
+            <img src="https://c.tenor.com/3YaztZFL3oEAAAAd/yoshi-yoshi-dan%C3%A7ando.gif" alt="Dancing yoshi"/>
+            <audio controls>
+                <source src="./audio.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="AudioCard">
+            <h1 class="AudioTitle">Você é feliz</h1>
+            <img src="https://c.tenor.com/3YaztZFL3oEAAAAd/yoshi-yoshi-dan%C3%A7ando.gif" alt="Dancing yoshi"/>
+            <audio controls>
+                <source src="./audio.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="AudioCard">
+            <h1 class="AudioTitle">Você é feliz</h1>
+            <img src="https://c.tenor.com/3YaztZFL3oEAAAAd/yoshi-yoshi-dan%C3%A7ando.gif" alt="Dancing yoshi"/>
+            <audio controls>
+                <source src="./audio.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="AudioCard">
+            <h1 class="AudioTitle">Você é feliz</h1>
+            <img src="https://c.tenor.com/3YaztZFL3oEAAAAd/yoshi-yoshi-dan%C3%A7ando.gif" alt="Dancing yoshi"/>
+            <audio controls>
+                <source src="./audio.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="AudioCard">
+            <h1 class="AudioTitle">Você é feliz</h1>
+            <img src="https://c.tenor.com/3YaztZFL3oEAAAAd/yoshi-yoshi-dan%C3%A7ando.gif" alt="Dancing yoshi"/>
+            <audio controls>
+                <source src="./audio.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </main>
+</body>
+</html>
